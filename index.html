@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Laksh's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+<!--            <img src="images/truff_copy.png" class="logo">-->
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Lakshman</span><br>Nair</h1>
+            <img src="img6(1).png">
+        </div>
+    </div>
+</div>
+
+<!-----about------>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img_3.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hello, I'm Lakshman, a second-year computer science student at the University of Toronto.
+                    I am an aspiring software developer interested in the fields of cybersecurity, AI, and data science.
+                    I created this website to develop proficiency in HTML, CSS, and some JavaScript, as well as to
+                    showcase and further develop my skills in web development.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <p>
+                        <!--<span>Python</span><br>-->Adept at formal logical thinking and problem-solving in mathematics and computer science.
+                        I excel in both independent and collaborative work, with experience in solo and team projects.
+                        I have two years of experience in Python and proficiency in various Python libraries, including Pandas, Hypothesis,
+                        Pygame, Plotly, and Pytest. Moreover, I am well-versed in HTML and CSS, and have a working knowledge of JavaScript.</li>
+<!--                    <li><span>Other Languages</span><br>HTML, CSS, familiarity with Javascript</li>-->
+                    </p>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li>Designed block-based RSA cryptosystem & explored RSA digital signature scheme</li>
+                        <li>Conducted data analysis on hypertension and low-income rates in Toronto with Plotly & Pandas</li>
+                        <li>Exploration of blockchain, ledgers, and cryptocurrency with linked lists</li>
+                        <li>Exploration of fractals, chaos theory and point sequences using Python and illustrations in Pygame</li>
+                        <li>Reverse engineered Wordle in Python to solve puzzles and displayed results in Pygame</li>
+                        <li>Developed two video games using Pygame</li>
+<!--                        <li><span>RSA maybe</span><br>Not sure</li>-->
+<!--                        <li><span>Graphs Network or this website</span><br>whatever yk</li>-->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <span>University of Toronto</span><br>Pursuing a Bachelor of Science<br>Computer Science Specialist<br>Second year of study<br><br>
+                        <span>White Oaks Secondary School</span><br>International Baccalaureate Diploma<br>Certificate of studies in Core French<br>
+                        Extracurriculars: Oak Hacks Member & Python Contest Competitor, DECA Executive, Debate Team member, Student Ambassador Students for Herd Immunity, Soccer player, etc.
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img_1.png">
+                <div class="layer">
+                    <h3>Checkers AI</h3>
+                    <p>I helped create and visualize a game of checkers played by two AI in real time.</p>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                    <a href="https://github.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img_7.png">
+                <div class="layer">
+                    <h3>Adversarial Wordle</h3>
+                    <p>Created AI using a tree data structure to simulate an advanced version of Wordle.</p>
+                    <a href="https://github.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img_14.png">
+                <div class="layer">
+                    <h3>Graphs & Networks</h3>
+                    <p>Generated networks of varying topologies using a graph data structure to send packets of information through.</p>
+                    <a href="https://github.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <p><br><br>*Github links coming soon
+    </div>
+<!--    <a href="#" class="btn">See More</a>-->
+</div>
+
+<!-------contact-------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p>lakshmannair7@gmail.com</p>
+                <p>(647)-907-5223</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/lakshman-nair-3730bb257/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://mail.google.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/lakshman_nair7/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="tel:+6479075223"><i class="fa-solid fa-phone"></i></a>
+                </div>
+                <a href="images/Resume_April2023_copy.docx" download class="btn btn2">Download Resumé</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwr4TYQC35UBCPBvAZ5kz9PW4VODtgbrOMMk_hPWex7p_wAEdUnqdWZtIOyRBtcSi8ggQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+           msg.innerHTML = "Message Sent Successfully"
+           setTimeout(function(){
+                msg.innerHTML = ""
+           },5000)
+           form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+
+
+
+</html>
