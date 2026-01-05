@@ -8,7 +8,7 @@
     <title>Laksh's Website</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -16,7 +16,6 @@
 <div id="header">
     <div class="container">
         <nav>
-<!--            <img src="images/truff_copy.png" class="logo">-->
             <ul>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -27,18 +26,15 @@
         <div class="header-text">
             <p>Software Developer</p>
             <h1>Hi, I'm <span>Lakshman</span><br>Nair</h1>
-<!--             <img src="images/attachments/img6(1).png"> -->
         </div>
     </div>
 </div>
-
-<!-----about------>
 
 <div id="about">
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                 <img src="images/56A5959E-AB6B-41C2-ADBE-12F7FF23CE77_4_5005_c.jpeg">
+                 <img src="images/UofT.jpeg">
             </div>
             <div class="about-col-2">
                 <h1 class="subtitle">About Me</h1>
@@ -55,11 +51,10 @@
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <p>
-                        <!--<span>Python</span><br>-->Adept at formal logical thinking and problem-solving in mathematics and computer science.
+                        Adept at formal logical thinking and problem-solving in mathematics and computer science.
                         I excel in both independent and collaborative work, with experience in solo and team projects.
                         Throughout my degree I have developed proficiency in object oriented programming using Python and Java. 
                         I have additionally developed projects using React, Next.js, Node.js, Python and SQL. </li>
-<!--                    <li><span>Other Languages</span><br>HTML, CSS, familiarity with Javascript</li>-->
                     </p>
                 </div>
                 <div class="tab-contents" id="projects">
@@ -70,8 +65,6 @@
                         <li>Exploration of fractals, chaos theory and point sequences using Python and illustrations in Pygame</li>
                         <li>Reverse engineered Wordle in Python to solve puzzles and displayed results in Pygame</li>
                         <li>Developed two video games using Pygame</li>
-<!--                        <li><span>RSA maybe</span><br>Not sure</li>-->
-<!--                        <li><span>Graphs Network or this website</span><br>whatever yk</li>-->
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
@@ -85,18 +78,24 @@
     </div>
 </div>
 
-<!------portfolio------>
 <div id="portfolio">
     <div class="container">
         <h1 class="subtitle">My Work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/img_1.png">
+                <img src="images/Sentiment2.png">
+                <div class="layer">
+                    <h3>Sentiment Tracker</h3>
+                    <p>A real-time Canadian economic sentiment analysis pipeline built with AWS Lambda, S3, and Streamlit.</p>
+                    <a href="https://sentiment-analysis-lakshmannair.streamlit.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/checkers.png">
                 <div class="layer">
                     <h3>Checkers AI</h3>
                     <p>I helped create and visualize a game of checkers played by two AI in real time.</p>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-                    <a href="https://github.com/LakshmanNair7/Checkers-AI" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/LakshmanNair/Checkers-AI" target="_blank"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
@@ -117,10 +116,7 @@
             </div>
         </div>
     </div>
-<!--    <a href="#" class="btn">See More</a>-->
 </div>
-
-<!-------contact-------->
 
 <div id="contact">
     <div class="container">
@@ -151,7 +147,6 @@
 </div>
 
 <script>
-
     var tablinks = document.getElementsByClassName("tab-links")
     var tabcontents = document.getElementsByClassName("tab-contents")
     function opentab(tabname){
@@ -164,7 +159,6 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab")
     }
-
 </script>
 
 <script>
@@ -187,7 +181,4 @@
 </script>
 
 </body>
-
-
-
 </html>
